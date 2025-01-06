@@ -31,7 +31,7 @@ const Footer = () => {
 						<TelegramIcon />
 						<InstagramIcon />
 						<TwitterIcon />
-					</div>
+					    </div>
                     </Box>
                 </Stack>
                 <Stack className={"right"}>
@@ -70,7 +70,7 @@ const Footer = () => {
             </Stack>
             <Stack className={"second"}>
             <span> © Nestar - All rights reserved. Nestar 2025</span>
-                <span>Privacy Terms Sitemap</span>
+                <span>Privacy · Terms · Sitemap</span>
             </Stack>
         </Stack>
     );
