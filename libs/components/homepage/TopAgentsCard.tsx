@@ -1,4 +1,6 @@
 import { Box, Stack } from "@mui/material"
+
+
 const TopAgentsCard = () => {
     return (
         <Stack className={"top-agent-card"}>
@@ -8,4 +10,5 @@ const TopAgentsCard = () => {
         </Stack>
     )
 }
+
 export default TopAgentsCard;

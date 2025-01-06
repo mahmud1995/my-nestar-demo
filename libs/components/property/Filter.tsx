@@ -18,7 +18,7 @@ const Filter = () => {
           value={searchText}
           type={"text"}
           className={"search-input"}
-          placeholder={"What are you lokking?"}
+          placeholder={"What are you looking for?"}
           onChange={(e: any) => setSearchText(e.target.value)}
            />
            <img src={"/img/icons/search_icon.png"} alt="" />

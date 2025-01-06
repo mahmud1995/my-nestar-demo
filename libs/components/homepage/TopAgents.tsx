@@ -2,7 +2,7 @@ import { Box, Stack } from "@mui/material";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useState } from "react";
-import TopAgentsCard from "./TopAgentsCard";
+import TopAgentsCard from "../homepage/TopAgentsCard";
 const TopAgents = ({initialInput, ...props}: any) => {
   const [topAgents, setTopAgents] = useState<number[]>(initialInput);
   return (

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import withLayoutBasic from "@/libs/components/layout/LayoutBasic";
+import withLayoutBasic from "@/libs/components/homepage/layout/LayoutBasic";
 import { Box, Button, Pagination, Stack, Typography } from "@mui/material";
 import KeyboardArrowDownRoundedIcon from "@mui/icons-material/KeyboardArrowDownRounded";
 import { NextPage } from "next";
@@ -46,3 +46,4 @@ const PropertyList: NextPage = () => {
     </div>
   )
 }
+export default withLayoutBasic(PropertyList);

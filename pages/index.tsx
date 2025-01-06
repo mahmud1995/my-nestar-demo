@@ -1,4 +1,4 @@
-import withLayoutMain from "@/libs/components/layout/LayoutHome";
+import withLayoutMain from "@/libs/components/homepage/layout/LayoutHome";
 import { Stack } from "@mui/material";
 import { NextPage } from "next";
 import PopularProperties from "@/libs/components/homepage/PopularProperties";
@@ -12,7 +12,6 @@ import "swiper/css/navigation";
 
 const Home: NextPage = () => {
   return (
-    <Stack>
       <Stack className={"home-page"}>
         <TrendProperties />
         <PopularProperties />
@@ -20,8 +19,6 @@ const Home: NextPage = () => {
         <TopProperties />
         <TopAgents />
       </Stack>
-    </Stack>
-    
   );
 };
 
